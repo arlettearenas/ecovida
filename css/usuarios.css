@@ -1,0 +1,51 @@
+@media (min-width: 768px){
+    .contenedor{
+        width: 550px;
+    }
+
+    .contenedor-campos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        column-gap: 10px;
+        margin-top: 5px;
+    }
+
+    .campo{
+        margin: 10px;
+
+    .campo label{
+        margin-bottom: 10px;
+        font-family: 'Krub', sans-serif;
+        font-weight: 700;
+    }
+    }
+}
+
+.modal-header{
+    font-weight: 700;
+}
+
+/*Estilos para la contraseña*/
+.container_password{
+position: relative;
+}
+
+.pass{
+    position: absolute;
+    
+}
+
+.icon{
+    position: absolute;
+    height: 60%;
+    top: 75%;
+    right: 8px;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.icon:hover{
+    opacity: 0.8;
+}

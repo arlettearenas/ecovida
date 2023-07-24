@@ -1,0 +1,10 @@
+.card-header {
+    background-color:rgb(185, 6, 191); /* Utilizamos la variable secundaria para el fondo */
+    color: var(--primario); /* Utilizamos la variable primaria para el color del texto */
+    text-align: center;
+  }
+  .btn {
+    background-color: rgb(193, 6, 200);
+    color: var(--primario);
+    text-align: center;
+  }
